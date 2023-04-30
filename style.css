@@ -1,5 +1,67 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(70, 203, 243, 0.329);
+  padding-top: 200px;
+}
+nav {
+  text-align: center;
+
+  text-indent: 360px;
+ 
+}
+a {
+  color: black;
+}
+
+main {
+  text-align: center;
+  display: block;
+
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(122, 79, 175, 1) 0%,
+    rgba(99, 133, 163, 1) 0%,
+    rgba(84, 167, 155, 1) 23%,
+    rgba(15, 209, 193, 1) 100%
+  );
+  border-radius: 10px;
+  width: 500px;
+  margin: auto;
+}
+.baslik {
+  text-align: center;
+  padding-top: 20px;
+}
+form {
+  margin: 10px;
+}
+.username {
+  padding: 10px;
+}
+button {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: rgba(0, 119, 255, 0.658);
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: large;
+  font-weight: 600;
+}
+button:hover {
+  background-color: #e201dad3;
+  cursor: pointer;
+  font-weight: 900;
+}
+footer {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.555);
 }
