@@ -1,19 +1,58 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  padding-top: 150px;
+  background-color: rgba(70, 203, 243, 0.329);
+>>>>>>> 6ad6083fa0a790803229ff98305098e9711fe1ef
 }
 
 nav {
-    text-align: right;
+  text-indent: 300px;
+  display: block;
+  margin: auto;
+}
 
+a {
+  color: black;
+  font-size: 18px;
+  font-size: larger;
+  text-decoration: none;
+}
+
+h2 {
+  padding-bottom: 10px;
 }
 
 main {
-    background-color: rgb(165, 209, 236);
+  width: 450px;
+  display: block;
+  margin: auto;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(122, 79, 175, 1) 0%,
+    rgba(99, 133, 163, 1) 0%,
+    rgba(84, 167, 155, 1) 23%,
+    rgba(15, 209, 193, 1) 100%
+  );
+  padding: 20px;
+  border-radius: 10px;
+}
 
+<<<<<<< HEAD
 }
 * {
   margin: 0;
@@ -84,3 +123,21 @@ footer {
   color: rgba(0, 0, 0, 0.555);
 }
 
+=======
+form {
+  margin-top: 5px;
+}
+#username {
+  margin-left: 10px;
+}
+
+#pass {
+    margin-left: 11px;
+  }
+#submit {
+  border-radius: 5px;
+  padding: 10px 40px 10px 40px;
+  color: white;
+  background-color: rgb(70, 70, 192);
+}
+>>>>>>> 6ad6083fa0a790803229ff98305098e9711fe1ef
