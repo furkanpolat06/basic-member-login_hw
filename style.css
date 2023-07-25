@@ -60,7 +60,7 @@ main {
 }
 body {
   background-color: rgba(70, 203, 243, 0.329);
-  padding-top: 200px;
+  padding-top: 100px;
 }
 nav {
   text-align: center;
@@ -74,16 +74,17 @@ a {
 }
 
 main {
+  padding: 5rem;
   text-align: center;
   display: block;
 
   background: linear-gradient(
     90deg,
-    rgba(131, 58, 180, 1) 0%,
+    rgba(133, 41, 194, 0.685) 0%,
     rgba(122, 79, 175, 1) 0%,
-    rgba(99, 133, 163, 1) 0%,
+    rgba(99, 133, 163, 0.568) 0%,
     rgba(84, 167, 155, 1) 23%,
-    rgba(15, 209, 193, 1) 100%
+    rgba(15, 209, 193, 0.568) 100%
   );
   border-radius: 10px;
   width: 500px;
@@ -103,7 +104,7 @@ button {
   display: inline-block;
   padding: 15px 40px;
   background-color: rgba(0, 119, 255, 0.658);
-  margin-bottom: 5px;
+  margin-top: 10px;
   border-radius: 10px;
   border: none;
   color: white;
@@ -124,6 +125,7 @@ footer {
 
 form {
   margin-top: 5px;
+  
 }
 #username {
   margin-left: 10px;
@@ -138,4 +140,13 @@ form {
   color: white;
   background-color: rgb(70, 70, 192);
 }
-
+.baslik h2{
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.651) ;
+}
+main img{
+  width: 10rem;
+  height: 10rem;
+  margin: 2rem;
+}
