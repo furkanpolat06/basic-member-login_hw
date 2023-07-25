@@ -1,11 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
-=======
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +15,7 @@ body {
   text-align: center;
   padding-top: 150px;
   background-color: rgba(70, 203, 243, 0.329);
->>>>>>> 6ad6083fa0a790803229ff98305098e9711fe1ef
+
 }
 
 nav {
@@ -52,7 +51,7 @@ main {
   border-radius: 10px;
 }
 
-<<<<<<< HEAD
+
 }
 * {
   margin: 0;
